@@ -5,30 +5,31 @@
         <style>
             .sidebar{
                 width:200px;
-                background-color:#ffffff;
-                padding-top:2rem;
+                background-color:#283593;
+                padding:1.5rem 0;
+                color:white;
                 border-right:1px solid #ddd;
                 position:fixed;
-                left:0;
-                top:60px;
                 height:calc(100vh-60px);
                 overflow-y:auto;
                 box-shadow:2px 0 5px rgba(0,0,0,0.1);
             }
             .sidebar-menu{
                 list-style:none;
-                padding:0;
             }
-            .sidebar-menu li a{
-                display:block;
-                padding:1rem 1.5rem;
-                color:#333;
-                text-decoration:none;
-                border-bottom:1px solid #eee;
-                transition:background-color 0.3s ease;
+            .sidebar-menu li {
+                padding:0.8rem 1.5rem;
+                border-bottom:4px solid #eee;
+                transition:all 0.3s;
             }
-            .sidebar-menu li a:hover{
+            .sidebar-menu li :hover{
                 background-color:#e9ecef;
+                border-left:4px solid #ffc107;
+            }
+            .side-menu a{
+                color:white;
+                text-decoration:none;
+                display:block;
             }
         </style>
     </head>
@@ -134,6 +135,7 @@
 
 
     
+
 
 
 
